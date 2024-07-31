@@ -3,10 +3,11 @@ from pathlib import Path
 
 def print_help():
     print(
-"""Usage: chind [file]
+"""Usage: chind [File] 
     Optional:
-        [target indentation N:int(default=4)]
-        [-o output file path(default=overwrite input file)]
+        [   Target indentation N :int  (default=4)]
+        [-o Output file path     :File (default=overwrite input file)]
+        [-f Forced]
 """
     )
 
